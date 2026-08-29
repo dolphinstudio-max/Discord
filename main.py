@@ -9,7 +9,7 @@ fact_list = [
     "El 90% de la información en línea se creó en los últimos dos años.",
     "Los centros de datos consumen más energía que muchos países."
     ]
-
+#Pablito Clavo Un Clavito
 @app.route("/")
 def home():
      return f'<h1>Hola, en esta página puedes aprender un par de cosas interesantes sobre las dependencias tecnológicas.</h1><a href="/random_fact">¡Ver un hecho al azar!</a>'
